@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499621C8260666A600F35AFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499621C7260666A600F35AFA /* AppDelegate.swift */; };
+		499621CA260666A600F35AFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499621C9260666A600F35AFA /* SceneDelegate.swift */; };
+		499621CC260666A600F35AFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499621CB260666A600F35AFA /* ViewController.swift */; };
+		499621CF260666A600F35AFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499621CD260666A600F35AFA /* Main.storyboard */; };
+		499621D1260666AA00F35AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499621D0260666AA00F35AFA /* Assets.xcassets */; };
+		499621D4260666AA00F35AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499621D2260666AA00F35AFA /* LaunchScreen.storyboard */; };
+		499621DF260666AA00F35AFA /* LuckNDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499621DE260666AA00F35AFA /* LuckNDiceTests.swift */; };
+		499621EA260666AA00F35AFA /* LuckNDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499621E9260666AA00F35AFA /* LuckNDiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499621DB260666AA00F35AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499621BC260666A600F35AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499621C3260666A600F35AFA;
+			remoteInfo = LuckNDice;
+		};
+		499621E6260666AA00F35AFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499621BC260666A600F35AFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499621C3260666A600F35AFA;
+			remoteInfo = LuckNDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499621C4260666A600F35AFA /* LuckNDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckNDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499621C7260666A600F35AFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		499621C9260666A600F35AFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		499621CB260666A600F35AFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		499621CE260666A600F35AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499621D0260666AA00F35AFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499621D3260666AA00F35AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499621D5260666AA00F35AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499621DA260666AA00F35AFA /* LuckNDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckNDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499621DE260666AA00F35AFA /* LuckNDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckNDiceTests.swift; sourceTree = "<group>"; };
+		499621E0260666AA00F35AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499621E5260666AA00F35AFA /* LuckNDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckNDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499621E9260666AA00F35AFA /* LuckNDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckNDiceUITests.swift; sourceTree = "<group>"; };
+		499621EB260666AA00F35AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499621C1260666A600F35AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499621D7260666AA00F35AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499621E2260666AA00F35AFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499621BB260666A600F35AFA = {
+			isa = PBXGroup;
+			children = (
+				499621C6260666A600F35AFA /* LuckNDice */,
+				499621DD260666AA00F35AFA /* LuckNDiceTests */,
+				499621E8260666AA00F35AFA /* LuckNDiceUITests */,
+				499621C5260666A600F35AFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499621C5260666A600F35AFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499621C4260666A600F35AFA /* LuckNDice.app */,
+				499621DA260666AA00F35AFA /* LuckNDiceTests.xctest */,
+				499621E5260666AA00F35AFA /* LuckNDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499621C6260666A600F35AFA /* LuckNDice */ = {
+			isa = PBXGroup;
+			children = (
+				499621C7260666A600F35AFA /* AppDelegate.swift */,
+				499621C9260666A600F35AFA /* SceneDelegate.swift */,
+				499621CB260666A600F35AFA /* ViewController.swift */,
+				499621CD260666A600F35AFA /* Main.storyboard */,
+				499621D0260666AA00F35AFA /* Assets.xcassets */,
+				499621D2260666AA00F35AFA /* LaunchScreen.storyboard */,
+				499621D5260666AA00F35AFA /* Info.plist */,
+			);
+			path = LuckNDice;
+			sourceTree = "<group>";
+		};
+		499621DD260666AA00F35AFA /* LuckNDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				499621DE260666AA00F35AFA /* LuckNDiceTests.swift */,
+				499621E0260666AA00F35AFA /* Info.plist */,
+			);
+			path = LuckNDiceTests;
+			sourceTree = "<group>";
+		};
+		499621E8260666AA00F35AFA /* LuckNDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				499621E9260666AA00F35AFA /* LuckNDiceUITests.swift */,
+				499621EB260666AA00F35AFA /* Info.plist */,
+			);
+			path = LuckNDiceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499621C3260666A600F35AFA /* LuckNDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499621EE260666AA00F35AFA /* Build configuration list for PBXNativeTarget "LuckNDice" */;
+			buildPhases = (
+				499621C0260666A600F35AFA /* Sources */,
+				499621C1260666A600F35AFA /* Frameworks */,
+				499621C2260666A600F35AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckNDice;
+			productName = LuckNDice;
+			productReference = 499621C4260666A600F35AFA /* LuckNDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499621D9260666AA00F35AFA /* LuckNDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499621F1260666AA00F35AFA /* Build configuration list for PBXNativeTarget "LuckNDiceTests" */;
+			buildPhases = (
+				499621D6260666AA00F35AFA /* Sources */,
+				499621D7260666AA00F35AFA /* Frameworks */,
+				499621D8260666AA00F35AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499621DC260666AA00F35AFA /* PBXTargetDependency */,
+			);
+			name = LuckNDiceTests;
+			productName = LuckNDiceTests;
+			productReference = 499621DA260666AA00F35AFA /* LuckNDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499621E4260666AA00F35AFA /* LuckNDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499621F4260666AA00F35AFA /* Build configuration list for PBXNativeTarget "LuckNDiceUITests" */;
+			buildPhases = (
+				499621E1260666AA00F35AFA /* Sources */,
+				499621E2260666AA00F35AFA /* Frameworks */,
+				499621E3260666AA00F35AFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499621E7260666AA00F35AFA /* PBXTargetDependency */,
+			);
+			name = LuckNDiceUITests;
+			productName = LuckNDiceUITests;
+			productReference = 499621E5260666AA00F35AFA /* LuckNDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499621BC260666A600F35AFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					499621C3260666A600F35AFA = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					499621D9260666AA00F35AFA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 499621C3260666A600F35AFA;
+					};
+					499621E4260666AA00F35AFA = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 499621C3260666A600F35AFA;
+					};
+				};
+			};
+			buildConfigurationList = 499621BF260666A600F35AFA /* Build configuration list for PBXProject "LuckNDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499621BB260666A600F35AFA;
+			productRefGroup = 499621C5260666A600F35AFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499621C3260666A600F35AFA /* LuckNDice */,
+				499621D9260666AA00F35AFA /* LuckNDiceTests */,
+				499621E4260666AA00F35AFA /* LuckNDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499621C2260666A600F35AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499621D4260666AA00F35AFA /* LaunchScreen.storyboard in Resources */,
+				499621D1260666AA00F35AFA /* Assets.xcassets in Resources */,
+				499621CF260666A600F35AFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499621D8260666AA00F35AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499621E3260666AA00F35AFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499621C0260666A600F35AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499621CC260666A600F35AFA /* ViewController.swift in Sources */,
+				499621C8260666A600F35AFA /* AppDelegate.swift in Sources */,
+				499621CA260666A600F35AFA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499621D6260666AA00F35AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499621DF260666AA00F35AFA /* LuckNDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499621E1260666AA00F35AFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499621EA260666AA00F35AFA /* LuckNDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499621DC260666AA00F35AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499621C3260666A600F35AFA /* LuckNDice */;
+			targetProxy = 499621DB260666AA00F35AFA /* PBXContainerItemProxy */;
+		};
+		499621E7260666AA00F35AFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499621C3260666A600F35AFA /* LuckNDice */;
+			targetProxy = 499621E6260666AA00F35AFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		499621CD260666A600F35AFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499621CE260666A600F35AFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499621D2260666AA00F35AFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499621D3260666AA00F35AFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499621EC260666AA00F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		499621ED260666AA00F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499621EF260666AA00F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckNDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atinagnihotri.LuckNDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499621F0260666AA00F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckNDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atinagnihotri.LuckNDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		499621F2260666AA00F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckNDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atinagnihotri.LuckNDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckNDice.app/LuckNDice";
+			};
+			name = Debug;
+		};
+		499621F3260666AA00F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckNDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atinagnihotri.LuckNDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckNDice.app/LuckNDice";
+			};
+			name = Release;
+		};
+		499621F5260666AA00F35AFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckNDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atinagnihotri.LuckNDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckNDice;
+			};
+			name = Debug;
+		};
+		499621F6260666AA00F35AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckNDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.atinagnihotri.LuckNDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckNDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499621BF260666A600F35AFA /* Build configuration list for PBXProject "LuckNDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499621EC260666AA00F35AFA /* Debug */,
+				499621ED260666AA00F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499621EE260666AA00F35AFA /* Build configuration list for PBXNativeTarget "LuckNDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499621EF260666AA00F35AFA /* Debug */,
+				499621F0260666AA00F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499621F1260666AA00F35AFA /* Build configuration list for PBXNativeTarget "LuckNDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499621F2260666AA00F35AFA /* Debug */,
+				499621F3260666AA00F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499621F4260666AA00F35AFA /* Build configuration list for PBXNativeTarget "LuckNDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499621F5260666AA00F35AFA /* Debug */,
+				499621F6260666AA00F35AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499621BC260666A600F35AFA /* Project object */;
+}
