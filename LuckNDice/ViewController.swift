@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var diceImageViewTwo: UIImageView!
     
-    var diceFaces = [ #imageLiteral(resourceName: "DiceOne") ,#imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")]
+    let diceFaces = [ #imageLiteral(resourceName: "DiceOne") ,#imageLiteral(resourceName: "DiceTwo"), #imageLiteral(resourceName: "DiceThree"), #imageLiteral(resourceName: "DiceFour"), #imageLiteral(resourceName: "DiceFive"), #imageLiteral(resourceName: "DiceSix")]
     var leftDiceNumber = 0
     var rightDiceNumber = 1
     
@@ -29,16 +29,24 @@ class ViewController: UIViewController {
 
 
     @IBAction func rollButtonPressed(_ sender: UIButton) {
+        
         print("Roll Button got tapped!")
+        
+        leftDiceNumber = Int.random(in: 0...5)
+        rightDiceNumber = Int.random(in: 0...5)
+        
+        
         if (diceImageViewOne.alpha != 1 || diceImageViewTwo.alpha != 1) {
             diceImageViewOne.alpha = 1
             diceImageViewTwo.alpha = 1
         }
         
-        print("Left Dice face set at \(leftDiceNumber)")
-        print("Right Dice face set at \(rightDiceNumber)")
+        print("Left Dice face set at \(leftDiceNumber + 1)")
+        print("Right Dice face set at \(rightDiceNumber + 1)")
         diceImageViewOne.image = diceFaces[leftDiceNumber]
         diceImageViewTwo.image = diceFaces[rightDiceNumber]
+        
+        // Could refactor with diceImageViewOne.image = diceFaces.randomElement() as well
             
     }
     
